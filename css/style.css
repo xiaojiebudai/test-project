@@ -53,6 +53,18 @@ img { max-width: 100%; display: block; }
 .nav-links a:hover { color: var(--accent-light); }
 .nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--accent-light); transition: width 0.3s; }
 .nav-links a:hover::after { width: 100%; }
+.nav-links a.active { color: #fff; }
+.nav-links a.active::after { width: 100%; }
+
+/* ===== 页面横幅 ===== */
+.page-banner { padding: 130px 0 60px; background-size: cover !important; background-position: center !important; color: var(--white); text-align: center; }
+.page-banner h1 { font-size: 40px; font-weight: 800; margin-bottom: 12px; }
+.page-banner p { font-size: 17px; opacity: 0.85; }
+
+/* ===== CTA ===== */
+.cta-section { background: var(--gradient); color: var(--white); }
+.cta-section .section-title { color: #fff; }
+.cta-section .section-desc { color: rgba(255,255,255,0.8); }
 
 /* ===== Hero ===== */
 .hero {
